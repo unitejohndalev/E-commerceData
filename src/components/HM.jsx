@@ -43,6 +43,9 @@ const HM = () => {
                       className="mb-10 relative flex flex-col items-center text-center shadow-1"
                     >
                       <div className="relative flex justify-center">
+                        <h1 className="font-medium text-[3rem] absolute left-2">
+                          {id}
+                        </h1>
                         <h1 className="font-medium text-[1.5rem] absolute -top-5 ">
                           {name}
                         </h1>

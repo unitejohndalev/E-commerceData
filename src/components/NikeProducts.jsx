@@ -48,6 +48,7 @@ const NikeProducts = () => {
                       key={id}
                       className="relative flex flex-col items-center text-center"
                     >
+                      <h1 className="font-medium text-[3rem] absolute left-2">{id}</h1>
                       <h1 className="font-medium text-[1.5rem] lg:text-[1.7rem] xl:text-[1.9rem] absolute -top-5">
                         {name}
                       </h1>
