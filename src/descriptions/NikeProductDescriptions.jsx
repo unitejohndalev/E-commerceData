@@ -30,22 +30,22 @@ const NikeProductDescriptions = () => {
                             <img className="rounded-xl" src={img3} alt="" />
                           </div>
 
-                          <div className="relative h-[90%] w-[100%] flex justify-center gap-x-10">
+                          <div className="relative h-[100%] w-[100%] flex justify-center gap-x-10">
                            
                               <img
-                                className="w-[400px] h-[500px] lg:w-[600px] lg:h-[800px] lg:absolute lg:left-0 "
+                                className="w-[400px] h-[500px] lg:w-[550px] lg:h-[700px] lg:absolute lg:left-0 "
                                 src={img1}
                                 alt=""
                               />
                            
                             <div className="flex items-center absolute h-[100%] xl:w-[40%] w-[100%] lg:right-0">
                               <div className="absolute w-[100%] flex justify-center top-10">
-                                <h1 className=" text-[1rem] xl:text-[2.3rem] xxl:text-[3rem] font-medium">
+                                <h1 className=" text-[1rem] xl:text-[2.3rem] xxl:text-[2.5rem] font-light">
                                   {name}
                                 </h1>
                               </div>
                               <div className="h-[30%] absolute bottom-0 xl:relative ">
-                                <p className="font-medium text-[1rem] xl:text-[1.4rem]">
+                                <p className="font-light text-[1rem] xl:text-[1.2rem]">
                                   {info}
                                 </p>
                               </div>
