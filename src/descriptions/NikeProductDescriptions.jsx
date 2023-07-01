@@ -95,7 +95,7 @@ const NikeProductDescriptions = () => {
                                 </h1>
                               </div>
                               <div className="h-[30%] absolute bottom-0 xl:relative ">
-                                <p className="font-medium text-[1rem] xl:text-[1.4rem]">
+                                <p className="font-light text-[1rem] xl:text-[1.4rem]">
                                   {info}
                                 </p>
                               </div>

@@ -26,7 +26,7 @@ const HM = () => {
       <div ref={HMRef} className="relative">
         <button
           className="h-[100px] w-[200px] rounded-xl mt-2 bg-red-600 text-white font-medium
-         text-[1.2rem] ml-[490px] fixed top-1 z-10 px-[2px] transition-all"
+         text-[1.2rem] lg:ml-[490px] fixed top-1 z-10 px-[2px] transition-all"
           onClick={toggle}
         >
           H&M
