@@ -66,7 +66,7 @@ const HMProductDescriptions = () => {
                         <div className="w-[100%] flex justify-center">
                           <div
                             className="absolute bottom-0 max-w-[550px] font-light text-[1.2rem] text-justify
-                          xl:text-[1.4rem] xxl:right-0 xxl:bottom-[150px] xxl:max-w-[500px]"
+                          xl:text-[1.4rem] xxl:right-10 xxl:bottom-[150px] xxl:max-w-[500px]"
                           >
                             <p>{info}</p>
                           </div>
