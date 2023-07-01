@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 //import data
 import data from "../HMProducts.json";
 
-const HM = () => {
+const HMProducts = () => {
   //destructure data
   const { jackets, clothes } = data;
 
@@ -25,8 +25,8 @@ const HM = () => {
     <div className="px-[20px]">
       <div ref={HMRef} className="relative">
         <button
-          className="h-[100px] w-[200px] rounded-xl mt-2 bg-red-600 text-white font-medium
-         text-[1.2rem] lg:ml-[490px] fixed top-1 z-10 px-[2px] transition-all"
+          className="ml-[90px] lg:h-[50px] lg:w-[150px] rounded-xl mt-2 bg-red-600 text-white font-medium
+         text-[1.2rem] lg:ml-[250px] fixed top-1 z-10 px-[2px] transition-all"
           onClick={toggle}
         >
           H&M
@@ -95,4 +95,4 @@ const HM = () => {
   );
 };
 
-export default HM;
+export default HMProducts;

@@ -29,11 +29,11 @@ const NikeProducts = () => {
         className="relative "
       >
         <button
-          className="h-[100px] w-[200px] rounded-xl mt-2 bg-red-600 text-white font-medium
+          className=" lg:h-[50px] lg:w-[150px] rounded-xl mt-2 bg-red-600 text-white font-medium
            text-[1.2rem] fixed top-1 z-10 px-[2px] transition-all"
           onClick={toggle}
         >
-          NIKE PRODUCTS
+          NIKE
         </button>
         <div>
           {show && (

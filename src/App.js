@@ -1,20 +1,23 @@
 //import components
 import NikeProducts from "./components/NikeProducts";
-import LouisVuittonProducts from "./components/LouisVuittonProducts";
-import HM from "./components/HM";
+import HMProducts from "./components/HMProducts";
+import HerschelProducts from "./components/HerschelProducts";
 import NikeProductDescriptions from "./descriptions/NikeProductDescriptions";
 import HMProductDescriptions from "./descriptions/HMProductDescriptions";
+import HerschelProductDescriptions from "./descriptions/HerschelProductDescriptions";
+
 
 function App() {
   return (
     <div className="scrollbar-hide">
-      {/* <NikeProducts /> */}
-      {/* <LouisVuittonProducts /> */}
-      {/* <HM/> */}
-      {/* <NikeProductDescriptions /> */}
+      <NikeProducts />
+      <HMProducts/>
+      <HerschelProducts/>
+      <NikeProductDescriptions />
       <HMProductDescriptions/>
+      <HerschelProductDescriptions/>
     </div>
   );
 }
-
+  
 export default App;
